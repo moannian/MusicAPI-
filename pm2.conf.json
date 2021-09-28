@@ -1,0 +1,15 @@
+{
+    "apps": {
+        "name": "music",
+        "script": "bin/www",
+        "watch": true,
+        "ignore_watch": [
+            "node_module",
+            "log"
+        ],
+        "instances": 4,
+        "error_file": "log/err.log",
+        "out_file": "log/access.log",
+        "log_data_format": "YYYY-MM-DD HH:mm:ss"
+    }
+}
